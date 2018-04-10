@@ -10,4 +10,5 @@ Pod::Spec.new do |s|
   s.authors               = { "Juraj Blahunka" => "jblahunka@kayak.com", "Johannes Marbach" => "johannesmarbach@gmail.com" }
   s.source                = { :git => "https://github.com/kayak/SwiftGenStrings.git", :tag => "#{s.version}" }
   s.source_files          = "SwiftGenStrings"
+  s.prepare_command       = "make release"
 end
