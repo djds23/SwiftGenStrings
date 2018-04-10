@@ -8,8 +8,6 @@ Pod::Spec.new do |s|
   s.homepage              = "https://github.com/kayak/SwiftGenStrings"
   s.license               = "Apache License, Version 2.0"
   s.authors               = { "Juraj Blahunka" => "jblahunka@kayak.com", "Johannes Marbach" => "johannesmarbach@gmail.com" }
-  s.platform              = :osx
-  s.osx.deployment_target = "10.9"
   s.source                = { :git => "https://github.com/kayak/SwiftGenStrings.git", :tag => "#{s.version}" }
   s.source_files          = "SwiftGenStrings"
 end
